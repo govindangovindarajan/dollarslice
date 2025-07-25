@@ -10,7 +10,7 @@ def min_price() -> str:
     return '310$'
 
 @final_answer
-def final_answer(amount: str,reason: str):
+def final_answer(amount: int,reason: str):
     '''Give the final answer to the question, pick a reasonable price for the motorcycle'''
     return (amount,reason)
 
